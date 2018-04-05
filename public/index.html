@@ -11,11 +11,12 @@
   <div class="form-signin">
     <h1 class="h3 mb-3 font-weight-normal">Authenticate</h1>
     <hr>
-    <button class="btn btn-lg btn-danger btn-block" onclick="googleSignin()">Sign in with Google</button>
-    <h1 class="h3 mb-3 mt-5 font-weight-normal">Token ID</h1>
+    <button class="btn btn-lg btn-danger btn-block" onclick="googleLogin()">Login with Google</button>
+    <button class="btn btn-lg btn-primary btn-block" onclick="facebookLogin()">Login with Facebook</button>
+    <h1 class="h3 mb-3 mt-5 font-weight-normal">ID Token</h1>
     <hr>
     <textarea name="token" id="token" rows="4"></textarea>
-    <button class="btn btn-lg btn-primary btn-block mt-3" onclick="copyToClipboard()">Copy</button>
+    <button class="btn btn-lg btn-secondary btn-block mt-3" onclick="copyToClipboard()">Copy</button>
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
